@@ -8,7 +8,7 @@ body
 
 .text-mute{
 
-	color:#747784;;
+	color:#7d97ad;
 }
 
 .text-thin{
@@ -22,7 +22,11 @@ body
 	font-size: 60px;
 	color:#2d3c49;
 }
+.projecttitle{
 
+	font-size: 40px;
+	color:#2d3c49;
+}
 .title-logo{
     color:#2db3e4;
 	margin-top: 20px;
