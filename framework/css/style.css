@@ -1,6 +1,6 @@
 body
 {
-	
+
 	font-family: 'Lato', sans-serif;
 	color: #747784;
 	font-weight: 300;
@@ -13,19 +13,32 @@ body
 
 .text-thin{
 
-	font-weight: 100;
+	font-weight: 200;
+
 }
 
-.title-major{
+.title-name{
 
 	font-size: 60px;
+	color:#2d3c49;
 }
 
 .title-logo{
-
+    color:#2db3e4;
 	margin-top: 20px;
 }
 
 .row{
 	display: flex;
+}
+
+hr{
+
+	height:4px;
+
+	background-color: #7d97ad;
+}
+.text-bold
+{
+	font-weight: bold;
 }
