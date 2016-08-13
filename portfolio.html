@@ -9,23 +9,22 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="framework/css/bootstrap.css">
     <link rel="stylesheet" href="framework/css/style.css">
-    <script type="text/javascript" src="framework/css/jquery-3.1.0.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
 
     <div class="container">
-        <section class="row">
+        <header class="row">
             <div class="col-md-6">
                 <!-- Udacity Logo-->
                 <img class="title-logo" src="framework/img/udacity_logo2.png" alt="Udacity Logo">
             </div>
-            <header class="col-md-6 text-right text-uppercase">
+            <div class="col-md-6 text-right text-uppercase">
                 <h1 class="title-name text-thin">Pragyan Roy</h1>
                 <h4 class="text-bold">Front End Ninja</h4>
-            </header>
-        </section>
+            </div>
+        </header>
         <section class="row">
             <div class="col-md-12">
                 <hr class="solidline">
@@ -34,37 +33,87 @@
         </section>
         <section class="row">
             <div class="col-md-12">
-                <img src="http://placekitten.com/1060/355" alt="catimage">
+                <img class="img-responsive" src="http://placekitten.com/1060/355" alt="catimage">
                 <!-- center image kitten-->
             </div>
         </section>
         <section class="row">
-            <header class="col-md-12">
-                <h1 class="text-mute">Featured Work</h1>
-            </header>
+            <div class="col-md-12">
+                <h2 class="text-mute">Featured Work</h2>
+            </div>
         </section>
 
-        <section class="row text-center">
+        <section class="row myWork">
             <!-- three images in the bottom-->
             <div class="col-md-4">
-                <img class="img-responsive" src="http://placekitten.com/280/200" alt="catimage">
-                <h2 class="text-uppercase projecttitle">APPIFY</h2>
-                <p>https://github.com/udacity/appify</p>
+                <img class="img-responsive" src="http://placekitten.com/280/200" alt="catimage" data-toggle="modal" data-target="#project1">
+                <h3 class="projecttitle">APPIFY</h3>
+                <a href="https://github.com/udacity/appify">https://github.com/udacity/appify</a>
             </div>
 
             <div class="col-md-4">
-                <img class="img-responsive" src="http://placekitten.com/280/200">
-                <h2 class="text-uppercase projecttitle">SUNFLOWER</h2>
-                <p>https://github.com/udacity/Sunflower</p>
+                <img class="img-responsive" src="http://placekitten.com/280/200" alt="catimage" data-toggle="modal" data-target="#project2">
+                <h3 class="projecttitle">SUNFLOWER</h3>
+                <a href="https://github.com/udacity/Sunflower">https://github.com/udacity/Sunflower</a>
             </div>
 
             <div class="col-md-4">
-                <img class="img-responsive" src="http://placekitten.com/280/200">
-                <h2 class="text-uppercase projecttitle">BOKEH</h2>
-                <p>https://github.com/udacity/Bokeh</p>
+                <img class="img-responsive" src="http://placekitten.com/280/200" alt="catimage" data-toggle="modal" data-target="#project3">
+                <h3 class="projecttitle">BOKEH</h3>
+                <a href="https://github.com/udacity/Bokeh">https://github.com/udacity/Bokeh</a>
             </div>
         </section>
     </div>
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://placekitten.com/280/200">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://placekitten.com/280/200">
+                    This was my second project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://placekitten.com/280/200">
+                    This was my third project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
+  <script type="text/javascript" src="framework/js/jquery-3.1.0.min.js"></script>
+  <script type="text/javascript" src="framework/js/bootstrap.min.js"></script>
 </html>
